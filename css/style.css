@@ -1,0 +1,28 @@
+body {
+  font-family: "Audiowide";
+  background-color: black;
+  color: white;
+
+}
+.topbar{
+  background-color: white;
+  color:black;
+  height: 104px;
+  font-size:40px;
+  margin-top: -8px;
+  margin-left: -8px;
+  padding: 80 0 -80 0;
+}
+.titlebar{
+  height: 40px;
+  margin-left: 40px;
+}
+.socialbuttons{
+  height:40px;
+  margin:-50px 0px 0px 80px;
+  display:inline-block;
+}
+.socialblocks{
+list-style: none;
+display: inline;
+}
