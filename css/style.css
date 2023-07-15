@@ -1,8 +1,13 @@
 body {
   font-family: "Audiowide";
-  background-color: black;
+  background-color: grey;
   color: white;
 
+}
+img{
+  max-width:100%;
+  max-height:100%;
+  display:block;
 }
 .topbar{
   background-color: white;
@@ -15,14 +20,33 @@ body {
 }
 .titlebar{
   height: 40px;
+  width:100%;
   margin-left: 40px;
+  /*display:inline-block;*/
 }
 .socialbuttons{
-  height:40px;
-  margin:-50px 0px 0px 80px;
-  display:inline-block;
+  height:25px;
+  font-size:25px;
+  /*display:inline-block;*/
+  float: right;
 }
-.socialblocks{
-list-style: none;
-display: inline;
+.mainmenu{
+  
+  margin-right:30px;
+  margin-top:15px;
+  font-size: 30px;
+  font-weight:bold;
+  float:right;
+}
+.pageheader{
+  background-image:url("../img/siteheader.jpg");
+  background-position: center;
+  height:250px;
+  width:100%;
+  border:4px;
+  border-style:solid;
+  border-color:red;
+  background-size:cover;
+  background-repeat:no-repeat;
+  margin:
 }
